@@ -1,7 +1,7 @@
 var thumbs = document.querySelectorAll('.thumb');
 for(idx in thumbs){
   thumbs[idx].onclick = function(){
-    document.getElementById("bigimg").src = ''  +this.dataset.image + '.jpg'
+    document.getElementById("bigimg").src = this.dataset.image + '.jpg'
   }
 }
 
