@@ -18,6 +18,7 @@ ul{
 li{
   float: left;
   margin-right: 1%;
+  width:20%;
 }
 
 .image:after{
