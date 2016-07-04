@@ -21,10 +21,6 @@ li{
   width:20%;
 }
 
-.thumb{
-  float: left;
-  width:20%;
-}
 
 .image:after{
   content: "";
