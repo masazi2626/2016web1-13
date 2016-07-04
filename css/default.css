@@ -21,6 +21,9 @@ li{
   width:20%;
 }
 
+.thumb{
+  width:20%;
+}
 
 .image:after{
   content: "";
