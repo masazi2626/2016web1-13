@@ -1,3 +1,11 @@
+var thumbs = document.querySelectorAll('.thumb');
+for(idx in thumbs){
+  thumbs[idx].onclick = function(){
+    document.getElementById("bigimg").src = ''  +this.dataset.image + '.jpg'
+  }
+}
+
+
 function setCookie(c_name,value,expiredays){
   var extime = new Date().getTime();
   var cltime = new Date(extime + (60*60*24*1000*expiredays));
